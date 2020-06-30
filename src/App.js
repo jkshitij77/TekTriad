@@ -1,26 +1,39 @@
 import React from 'react';
-import logo from './logo.svg';
+import ReactFullpage from '@fullpage/react-fullpage';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <ReactFullpage
+        //fullpage options
+        licenseKey = {'YOUR_KEY_HERE'}
+        scrollingSpeed = {1000} /* Options here */
+
+        render={({ state, fullpageApi }) => {
+          return (
+            <ReactFullpage.Wrapper>
+              <div className="section one">
+                <p>Section 1 (welcome to fullpage.js)</p>
+              </div>
+              <div className="section two">
+                <p>Section 2</p>
+              </div>
+              <div className="section three">
+              </div>
+              <div className="section four">
+                <h1>ABOUT US</h1>
+                <img class="trial"src={require('./attachments/tektriadlogo.svg')}/>
+              </div>
+            </ReactFullpage.Wrapper>
+          );
+        }}
+      />
     </div>
   );
 }
 
 export default App;
+{/* <button onClick={() => fullpageApi.moveSectionDown()}>
+Click me to move down
+</button> */}
