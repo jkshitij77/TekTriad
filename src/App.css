@@ -1,7 +1,8 @@
 .one{
-  background-image: url('attachments/gan.jpg');
+  background-image: url('attachments/bgone.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .two{
@@ -18,13 +19,24 @@
 }
 
 .four{
-  background-image: url('attachments/beach.jpg');
+  background-image: url('attachments/beachcrop.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+
+  color: #8A1414;
+  font-weight: 600;
+  font-size: 5vh;
+  letter-spacing: -40;
 }
 
 .trial{
-  fill: aquamarine;
   height: 20vh;
   filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
+.body{
+  font-family: 'Montserrat', sans-serif;
 }

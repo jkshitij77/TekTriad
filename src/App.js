@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div class="body">
        <ReactFullpage
         //fullpage options
         licenseKey = {'YOUR_KEY_HERE'}
