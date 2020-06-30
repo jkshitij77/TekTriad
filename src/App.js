@@ -22,8 +22,9 @@ function App() {
               <div className="section three">
               </div>
               <div className="section four">
-                <h1>ABOUT US</h1>
-                <img class="trial"src={require('./attachments/tektriadlogo.svg')}/>
+                <h1 class="abt-us">ABOUTs US</h1>
+
+                <img class="abt-us trial"src={require('./attachments/tektriadlogo.svg')}/>
               </div>
             </ReactFullpage.Wrapper>
           );
