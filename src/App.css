@@ -1,7 +1,8 @@
 .one{
-  background-image: url('attachments/gan.jpg');
+  background-image: url('attachments/bgone.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .two{
@@ -12,25 +13,134 @@
 }
 
 .three{
-  background-image: url('attachments/sunset.jpg');
+  background-image: url('attachments/bgthree.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .four{
-  background-image: url('attachments/beach.jpg');
+  height: 25vh;
+  width: 100vw;
+
+
+  background-image: url('attachments/beachcrop.png');
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: row;
+
+  color: black;
+  font-weight: 600;
+  font-size: 5vh;
+  letter-spacing: -40;
 }
 
 .trial{
-  fill: aquamarine;
-  height: 20vh;
-  filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%) opacity(30%);
-  
+  width: 35vh;
+  padding-bottom: -2vh;
+  filter: invert(42%) sepia(93%) saturate(1349%) hue-rotate(80deg) brightness(129%) contrast(119%) opacity(.550);
+}
+.abt-us{
+  align-items: center;
+  text-align: center;
+  margin-top: 10vh ;
 }
 
-.abt-us{
-  margin-left: 40%;
-  margin-top: -10%;
+.body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.BEHEN{
+  height: 60vh;
+  width: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aboutus-cont{
+  height: 40vh;
+  width: 80vw; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 3vh;
+
+}
+
+.found{
+  display: flex;
+  flex-direction: row;
+  padding-right: 20vh;
+  padding-left: 20vh;
+  width: 100vw;
+}
+.dabba{
+  margin-left: 6vh;
+  opacity: 1;
+  border-radius: 3vh;
+  text-align: center;
+  size: 1vh;
+}
+
+.found-ph{
+  box-sizing: border-box;
+  border-radius: 3vh;
+  text-align: center;
+  margin: 1vh;
+  height: max-content;
+  font-size: 3vh;
+}
+
+.founder{
+ height: 30vh;
+ border-radius: 5vh;
+
+}
+@media(max-width: 768px){
+  .found{
+    flex-direction: column;
+    padding-left: 0vh;
+    height: 70vh;
+  }
+  .founder{
+   height: 10vh;
+   border-radius: 3vh;
+  
+  }
+  .dabba{
+    margin-left: 0vh;
+    opacity: 1;
+    border-radius: 3vh;
+    text-align: center;
+    font-size: 2vh;
+  }
+}
+.Abt{
+  height: 28vh;
+  width: 28vw;
+  justify-content: center;
+  padding-left: 35vw;
+}
+.aboutustxt{
+  padding-left: 10vw;
+  font-size: 3vh;
+  text-align: center;
+
+}
+@media(max-width: 768px){
+  .Abt{
+    height: 28vh;
+    width: 28vw;
+    justify-content: center;
+    padding-left: 38vw;
+  }
+  .aboutustxt{
+    padding-left: 10vw;
+    font-size: 2vh;
+  
+  }
+
 }

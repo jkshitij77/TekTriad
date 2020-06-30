@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div class="body">
        <ReactFullpage
         //fullpage options
         licenseKey = {'YOUR_KEY_HERE'}
@@ -20,11 +20,28 @@ function App() {
                 <p>Section 2</p>
               </div>
               <div className="section three">
+                
               </div>
               <div className="section four">
-                <h1 class="abt-us">ABOUTs US</h1>
 
-                <img class="abt-us trial"src={require('./attachments/tektriadlogo.svg')}/>
+              <div class="aboutus-cont">
+              <img class="Abt" src={require("./attachments/aboutus.svg")} />
+              <p class="aboutustxt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, accusantium! Lorem ipsum dolor sit amet consectetur consectetur adipisicing.</p>
+              </div>
+
+                <div class="BEHEN">
+                
+                
+                  <div class="found">
+                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/Sharma.jpg")} /></div> 
+                    <div class="found-ph">Chand shabd apne baare me </div></div>
+                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/DP.jpg")} /> </div> <div class="found-ph"> Chand milky boy baare me</div></div>
+                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/Shuchit.jpg")} /></div> <div class="found-ph">Chand shabd apne baare <br />me</div> </div>
+
+                  </div>
+                 
+                </div>
+                
               </div>
             </ReactFullpage.Wrapper>
           );
