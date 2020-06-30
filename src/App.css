@@ -109,6 +109,132 @@
   flex-direction: column;
 }
 
+.top-part-s2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding-left: 35vw; */
+  /* margin-top: -10vh; */
+  padding-bottom: 20vh;
+}
+.s2-logo-name{
+  padding-left: 42vw;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+
+.s2-logo-name img{
+  height: 3vw;
+  filter: invert(0%) sepia(0%) saturate(23%) hue-rotate(104deg) brightness(104%) contrast(100%) opacity(.85);
+  
+}
+.proj-container{
+  padding-top: -20vh;
+  padding-left: 6vw;
+  display: flex;
+  flex-direction: row;
+}
+.proj-container-left{
+  padding-left: 1vw;
+  display: flex;
+  flex-direction: row;
+
+}
+.proj-container-left img{
+  height: 40vh;
+  border-radius: 3vh;
+}
+.proj-container-right{
+  display: flex;
+  flex-direction: row;
+  padding-left: 9vw;
+  
+
+}
+.proj-container-right img{
+  height: 40vh;
+  border-radius: 3vh;
+}
+.proj-container-right-box{
+  padding-left: 1vw;
+}
+.proj-container-left-box{
+  padding-left: 2vh;
+}
+.proj-txt{
+  font-size: 3vh;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+
+@media (max-width: 768px){
+
+  .proj-container{
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-top: -1vh;
+  }
+  .proj-container-left{
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 3vw;
+  }
+  .proj-container-left img{
+    height: 18vh;
+    border-radius: 1vh;
+  }
+  .proj-container-left-box{
+    padding-left: 7vw;
+  }
+  .proj-container-right{
+    flex-direction: row;
+    padding-left: 7vw;
+  }
+  .proj-container-right img{
+    height: 18vh;
+    border-radius: 1vh;
+  }
+  .proj-container-right-box{
+    padding-left: 3.5vw;
+  }
+  .proj-txt{
+    font-size: 3.25vh;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+  }
+  .top-part-s2{
+    padding-bottom: 4vh;
+  }
+  .s2-logo-name{
+    font-size: 3.5vh;
+    padding-left: 25vw;
+  }
+  .s2-logo-name img{
+    height: 4.5vh;
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Section three */
 
 .three{
@@ -187,7 +313,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
+  padding-left: 3vw;
   display: flex;
   flex-direction: row;
 
@@ -197,20 +323,6 @@
   letter-spacing: -40;
 }
 
-<<<<<<< HEAD
-.trial{
-  width: 35vh;
-  padding-bottom: -2vh;
-  filter: invert(42%) sepia(93%) saturate(1349%) hue-rotate(80deg) brightness(129%) contrast(119%) opacity(.550);
-}
-.abt-us{
-  align-items: center;
-  text-align: center;
-  margin-top: 10vh ;
-}
-
-=======
->>>>>>> e30f0eee10a9042c7dac23d57a42d3ab3de86fec
 .body{
   font-family: 'Montserrat', sans-serif;
 }
