@@ -13,15 +13,16 @@ function App() {
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
+              {/* Section one here */}
               <div className="section one">
                 <div class="divforsectionone">
                   <div class="toprowwiththings">
-                    <div class="logoandname">TekTriad <img src={require('./attachments/tektriadlogo.svg')}/></div>
+                    <div class="logoandname">TekTriad <img src={require('./attachments/tektriadlogo.svg')} alt="logo"/></div>
                       <div>
                         <div class="tabs">
-                          <a href="#">Projects</a>
-                          <a href="#">Services</a>
-                          <a href="#">About us</a>
+                          <a href="#idProjects">Projects</a>
+                          <a href="#idServices">Services</a>
+                          <a href="#idAboutUs">About us</a>
                       </div>
                     </div>
                   </div>
@@ -30,19 +31,26 @@ function App() {
                     <div class="firstpagebutton">Sign Up</div>
                   </div>
                   <div class="logos">
-                    <a><img></img></a>
+                    <a href="https://www.instagram.com/tektriad/"><img src="https://img.icons8.com/metro/208/000000/instagram-new.png" alt="insta"/></a>
+                    <a href=""><img src="https://img.icons8.com/android/208/000000/facebook-new.png" alt="fb"/></a>
+                    <a href=""><img src="https://img.icons8.com/android/208/000000/linkedin.png" alt="linkedin"/></a>
+                    <a href=""><img src="https://img.icons8.com/material-sharp/208/000000/github.png" alt="github"/></a>
                   </div>
                 </div>
               </div>
+
+              {/* Section two here */}
               <div className="section two">
-                <p>Section 2</p>
+                <div class="divforsectionotwo">
+
+                </div>
               </div>
               <div className="section three">
               </div>
               <div className="section four">
                 <div class="BEHEN">
                   <h1>ABOUT US</h1>
-                  <img class="trial"src={require('./attachments/tektriadlogo.svg')}/>
+                  <img class="trial"src={require('./attachments/tektriadlogo.svg')} alt="alttag"/>
                 </div>
               </div>
             </ReactFullpage.Wrapper>
