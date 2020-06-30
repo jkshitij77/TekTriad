@@ -347,12 +347,12 @@
 .found{
   display: flex;
   flex-direction: row;
-  padding-right: 20vh;
-  padding-left: 20vh;
+  padding-right: 5vw;
+  padding-left: 6vw;
   width: 100vw;
 }
 .dabba{
-  margin-left: 6vh;
+  padding-left: 7vw;
   opacity: 1;
   border-radius: 3vh;
   text-align: center;
@@ -376,7 +376,7 @@
 @media(max-width: 768px){
   .found{
     flex-direction: column;
-    padding-left: 0vh;
+    padding-left: 1vw;
     height: 70vh;
   }
   .founder{
@@ -385,7 +385,7 @@
   
   }
   .dabba{
-    margin-left: 0vh;
+    padding-right: 10vw;
     opacity: 1;
     border-radius: 3vh;
     text-align: center;
@@ -396,7 +396,7 @@
   height: 28vh;
   width: 28vw;
   justify-content: center;
-  padding-left: 35vw;
+  padding-left: 33vw;
 }
 .aboutustxt{
   padding-left: 10vw;
@@ -409,7 +409,7 @@
     height: 28vh;
     width: 28vw;
     justify-content: center;
-    padding-left: 38vw;
+    padding-left: 32vw;
   }
   .aboutustxt{
     padding-left: 10vw;
