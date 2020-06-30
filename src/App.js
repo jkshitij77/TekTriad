@@ -14,7 +14,25 @@ function App() {
           return (
             <ReactFullpage.Wrapper>
               <div className="section one">
-                <p>Section 1 (welcome to fullpage.js)</p>
+                <div class="divforsectionone">
+                  <div class="toprowwiththings">
+                    <div class="logoandname">TekTriad <img src={require('./attachments/tektriadlogo.svg')}/></div>
+                      <div>
+                        <div class="tabs">
+                          <a href="#">Projects</a>
+                          <a href="#">Services</a>
+                          <a href="#">About us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="loremipsumgithub">
+                    <p>LOREM IPSUM AND BEYOND</p>
+                    <div class="firstpagebutton">Sign Up</div>
+                  </div>
+                  <div class="logos">
+                    <a><img></img></a>
+                  </div>
+                </div>
               </div>
               <div className="section two">
                 <p>Section 2</p>
