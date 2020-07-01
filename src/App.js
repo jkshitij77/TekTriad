@@ -50,14 +50,14 @@ function App() {
                   </div>
                   <div class="proj-container">
                     <div class="proj-container-left">
-                      <div class="proj-container-left-box"><a target="_blank" rel="noopener noreferrer" href="https://dalicalendar-936c1.web.app/"><img src={require("./attachments/web1.jpg")} /></a>
+                      <div class="proj-container-left-box"><a target="_blank" rel="noopener noreferrer" href="https://dalicalendar-936c1.web.app/"><img src={require("./attachments/web1.jpg")} alt="project"/></a>
                       <p class="proj-txt">Planner web-app with<br/>a signup interface</p>
                       </div>
                       
                       
                       <div class="proj-container-left-box">
-                      <a target="_blank" href="http://kshitijjain.me/">
-                      <img src={require("./attachments/web2.jpg")} /></a>
+                      <a target="_blank" rel="noopener noreferrer" href="http://kshitijjain.me/">
+                      <img src={require("./attachments/web2.jpg")} alt="project"/></a>
                       <p class="proj-txt">A portfolio website<br/> </p>
 
                       </div>
@@ -67,14 +67,14 @@ function App() {
                     <div class="proj-container-right">
                     
                       <div class="proj-container-right-box">
-                      <a target="_blank" href="https://github.com/shuchitpant/ARONE">   <img src={require("./attachments/web91.jpg")} /> </a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://github.com/shuchitpant/ARONE">   <img src={require("./attachments/web91.jpg")} alt="project"/> </a>
                       <p class="proj-txt">An AR Android App <br/></p>
 
                       </div>
                       
                       
                       <div class="proj-container-right-box">
-                      <a target="_blank" href="https://github.com/jkshitij77/BrainTrainer">    <img src={require("./attachments/web4.jpeg")} /> </a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://github.com/jkshitij77/BrainTrainer">    <img src={require("./attachments/web4.jpeg")} alt="project"/> </a>
                       <p class="proj-txt">Lorem ipsum dolor <br/> sit amet.</p>
                       </div>
                       
@@ -93,7 +93,7 @@ function App() {
               <div className="section three" id="idServices">
                 <div class="divforsectionothree">
                   <div class="services">
-                    <img src={require('./attachments/Services-01.svg')}/>
+                    <img src={require('./attachments/Services-01.svg')} alt="project"/>
                   </div>
                   
                   <div class="lowerthingservices">
@@ -126,7 +126,7 @@ function App() {
               <div className="section four" id="idAboutUs">
 
               <div class="aboutus-cont">
-              <img class="Abt" viewBox="-100 -100 100 100" src={require("./attachments/aboutus.svg")} />
+              <img class="Abt" viewBox="-100 -100 100 100" src={require("./attachments/aboutus.svg")} alt="aboutus"/>
               <p class="aboutustxt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, accusantium! Lorem ipsum dolor sit amet consectetur consectetur adipisicing.</p>
               </div>
 
@@ -134,11 +134,11 @@ function App() {
                 
                 
                   <div class="found">
-                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/Sharma.jpg")} /></div> 
+                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/Sharma.jpg")} alt="sharma"/></div> 
                     <div class="found-ph">She quirky tho.</div></div>
-                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/DP.jpg")} /> </div> 
+                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/DP.jpg")} alt="kshitij"/> </div> 
                     <div class="found-ph"> Mikayla tum kyu bhag gayi</div></div>
-                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/Shuchit.jpg")} /></div> 
+                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/Shuchit.jpg")} alt="beti"/></div> 
                     <div class="found-ph"> Sab ho jaega bhai</div> </div>
 
                   </div>
