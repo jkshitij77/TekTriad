@@ -41,24 +41,24 @@ function App() {
 
 
               {/* Section two here */}
-              <div className="section two">
+              <div className="section two" id="idProjects">
               
-                <div class="divforsectionotwo">
+                <div class="divforsectionotwo" >
                   
                   <div class="top-part-s2">
                     <div class="s2-logo-name">Live Projects <img src={require('./attachments/tektriadlogo.svg')} alt="logo"/></div>
                   </div>
                   <div class="proj-container">
                     <div class="proj-container-left">
-                      <div class="proj-container-left-box"><a href=""><img src={require("./attachments/web1.jpg")} /></a>
-                      <p class="proj-txt">Lorem ipsum dolor <br/> sit amet.</p>
+                      <div class="proj-container-left-box"><a target="_blank" href="https://dalicalendar-936c1.web.app/"><img src={require("./attachments/web1.jpg")} /></a>
+                      <p class="proj-txt">Planner web-app with<br/>a signup interface</p>
                       </div>
                       
                       
                       <div class="proj-container-left-box">
-                      <a href="">
+                      <a target="_blank" href="http://kshitijjain.me/">
                       <img src={require("./attachments/web2.jpg")} /></a>
-                      <p class="proj-txt">Lorem ipsum dolor <br/> sit amet.</p>
+                      <p class="proj-txt">A portfolio website<br/> </p>
 
                       </div>
                       
@@ -67,14 +67,14 @@ function App() {
                     <div class="proj-container-right">
                     
                       <div class="proj-container-right-box">
-                      <a href="">   <img src={require("./attachments/web30.jpg")} /> </a>
-                      <p class="proj-txt">Lorem ipsum dolor <br/> sit amet.</p>
+                      <a target="_blank" href="https://github.com/shuchitpant/ARONE">   <img src={require("./attachments/web90.jpg")} /> </a>
+                      <p class="proj-txt">An AR Android App <br/></p>
 
                       </div>
                       
                       
                       <div class="proj-container-right-box">
-                      <a href="">    <img src={require("./attachments/web4.jpg")} /> </a>
+                      <a target="_blank" href="https://github.com/jkshitij77/BrainTrainer">    <img src={require("./attachments/web4.jpeg")} /> </a>
                       <p class="proj-txt">Lorem ipsum dolor <br/> sit amet.</p>
                       </div>
                       
@@ -90,9 +90,11 @@ function App() {
 
 
 
-              <div className="section three">
+              <div className="section three" id="idServices">
                 <div class="divforsectionothree">
+                  
                   <div class="lowerthingservices">
+                  
                     <div class="servicecard"> 
                       <img src={require('./attachments/webdevlogo.png')} alt="webdev"/> 
                       <h1> Web Development</h1>
@@ -118,7 +120,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="section four">
+              <div className="section four" id="idAboutUs">
 
               <div class="aboutus-cont">
               <img class="Abt" viewBox="-100 -100 100 100" src={require("./attachments/aboutus.svg")} />

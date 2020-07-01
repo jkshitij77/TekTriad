@@ -144,7 +144,7 @@
 
 }
 .proj-container-left img{
-  height: 40vh;
+  height: 20vw;
   border-radius: 3vh;
 }
 .proj-container-right{
@@ -155,7 +155,7 @@
 
 }
 .proj-container-right img{
-  height: 40vh;
+  height: 20vw;
   border-radius: 3vh;
 }
 .proj-container-right-box{
@@ -165,10 +165,10 @@
   padding-left: 2vh;
 }
 .proj-txt{
-  font-size: 3vh;
-  text-align: center;
+  font-size: 2vh;
+  text-align: left;
   color: white;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 @media (max-width: 768px){
@@ -203,9 +203,9 @@
   }
   .proj-txt{
     font-size: 3.25vh;
-    text-align: center;
-    color: white;
-    font-weight: lighter;
+    text-align: left;
+    color: ghostwhite;
+    font-weight: 700;
   }
   .top-part-s2{
     padding-bottom: 4vh;
@@ -363,13 +363,13 @@
   box-sizing: border-box;
   border-radius: 3vh;
   text-align: center;
-  margin: 1vh;
+  margin: 1vw;
   height: max-content;
   font-size: 3vh;
 }
 
 .founder{
- height: 30vh;
+ height: 15vw;
  border-radius: 5vh;
 
 }
@@ -380,7 +380,7 @@
     height: 70vh;
   }
   .founder{
-   height: 10vh;
+   height: 18vw;
    border-radius: 3vh;
   
   }
