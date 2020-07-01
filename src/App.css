@@ -218,21 +218,7 @@
     height: 4.5vh;
   }
 
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Section three */
@@ -251,6 +237,17 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
+}
+
+.services{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.services img{
+  height: 25vw;
 }
 
 .lowerthingservices{
@@ -296,6 +293,10 @@
     margin: 0vw;
   }
   .emptyh1{
+    display: none;
+  }
+
+  .services img{
     display: none;
   }
 
@@ -352,7 +353,7 @@
   width: 100vw;
 }
 .dabba{
-  padding-left: 11vw;
+  padding-left: 7vw;
   opacity: 1;
   border-radius: 3vh;
   text-align: center;
@@ -360,6 +361,7 @@
 }
 
 .found-ph{
+  width: 20vw;
   box-sizing: border-box;
   border-radius: 3vh;
   text-align: center;
@@ -401,7 +403,6 @@
   }
 
 
-
 }
 .Abt{
   height: 28vh;
@@ -411,7 +412,7 @@
 }
 .aboutustxt{
   padding-left: 10vw;
-  font-size: 3vh;
+  font-size: 2.3vh;
   text-align: center;
 
 }
