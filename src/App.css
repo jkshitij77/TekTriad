@@ -218,21 +218,7 @@
     height: 4.5vh;
   }
 
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Section three */
@@ -251,6 +237,17 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
+}
+
+.services{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.services img{
+  height: 25vw;
 }
 
 .lowerthingservices{
@@ -296,6 +293,10 @@
     margin: 0vw;
   }
   .emptyh1{
+    display: none;
+  }
+
+  .services img{
     display: none;
   }
 

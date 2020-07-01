@@ -50,7 +50,7 @@ function App() {
                   </div>
                   <div class="proj-container">
                     <div class="proj-container-left">
-                      <div class="proj-container-left-box"><a target="_blank" href="https://dalicalendar-936c1.web.app/"><img src={require("./attachments/web1.jpg")} /></a>
+                      <div class="proj-container-left-box"><a target="_blank" rel="noopener noreferrer" href="https://dalicalendar-936c1.web.app/"><img src={require("./attachments/web1.jpg")} /></a>
                       <p class="proj-txt">Planner web-app with<br/>a signup interface</p>
                       </div>
                       
@@ -92,6 +92,9 @@ function App() {
 
               <div className="section three" id="idServices">
                 <div class="divforsectionothree">
+                  <div class="services">
+                    <img src={require('./attachments/Services-01.svg')}/>
+                  </div>
                   
                   <div class="lowerthingservices">
                   
