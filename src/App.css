@@ -332,7 +332,7 @@
   width: 100vh; 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .aboutus-cont{
   height: 40vh;
@@ -347,12 +347,12 @@
 .found{
   display: flex;
   flex-direction: row;
-  padding-right: 5vw;
-  padding-left: 6vw;
+  padding-right: 2vw;
+  padding-left: 0vw;
   width: 100vw;
 }
 .dabba{
-  padding-left: 7vw;
+  padding-left: 11vw;
   opacity: 1;
   border-radius: 3vh;
   text-align: center;
@@ -365,7 +365,7 @@
   text-align: center;
   margin: 1vw;
   height: max-content;
-  font-size: 3vh;
+  font-size: 1.215vw;
 }
 
 .founder{
@@ -376,11 +376,11 @@
 @media(max-width: 768px){
   .found{
     flex-direction: column;
-    padding-left: 1vw;
+    padding-left: 0vw;
     height: 70vh;
   }
   .founder{
-   height: 18vw;
+   height: 14vw;
    border-radius: 3vh;
   
   }
@@ -389,8 +389,19 @@
     opacity: 1;
     border-radius: 3vh;
     text-align: center;
-    font-size: 2vh;
+    font-size: 2vw;
   }
+  .found-ph{
+    box-sizing: border-box;
+    border-radius: 3vh;
+    text-align: center;
+    margin-left: 0vw;
+    height: max-content;
+    font-size: 1.6vw;
+  }
+
+
+
 }
 .Abt{
   height: 28vh;
