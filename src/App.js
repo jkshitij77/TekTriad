@@ -67,7 +67,7 @@ function App() {
                     <div class="proj-container-right">
                     
                       <div class="proj-container-right-box">
-                      <a target="_blank" href="https://github.com/shuchitpant/ARONE">   <img src={require("./attachments/web90.jpg")} /> </a>
+                      <a target="_blank" href="https://github.com/shuchitpant/ARONE">   <img src={require("./attachments/web91.jpg")} /> </a>
                       <p class="proj-txt">An AR Android App <br/></p>
 
                       </div>
@@ -133,8 +133,10 @@ function App() {
                   <div class="found">
                     <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/Sharma.jpg")} /></div> 
                     <div class="found-ph">She quirky tho.</div></div>
-                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/DP.jpg")} /> </div> <div class="found-ph"> Mikayla tum kyu bhag gayi</div></div>
-                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/Shuchit.jpg")} /></div> <div class="found-ph"> Sab ho jaega bhai</div> </div>
+                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/DP.jpg")} /> </div> 
+                    <div class="found-ph"> Mikayla tum kyu bhag gayi</div></div>
+                    <div class="dabba"><div class="found-ph"><img class="founder" src={require("./attachments/Shuchit.jpg")} /></div> 
+                    <div class="found-ph"> Sab ho jaega bhai</div> </div>
 
                   </div>
                  
