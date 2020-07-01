@@ -118,16 +118,16 @@
   padding-bottom: 20vh;
 }
 .s2-logo-name{
-  padding-left: 42vw;
+  padding-left: 37vw;
   display: flex;
   flex-direction: row;
   color: black;
-  font-size: 2.5vw;
+  font-size: 4vw;
   font-weight: 600;
 }
 
 .s2-logo-name img{
-  height: 3vw;
+  height: 5.0125vw;
   filter: invert(0%) sepia(0%) saturate(23%) hue-rotate(104deg) brightness(104%) contrast(100%) opacity(.85);
   
 }
