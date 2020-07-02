@@ -106,7 +106,7 @@ function App() {
                       <p>Our team of designers is there for your every need, be it designing an online post, vector images or full fledged websites </p>
                     </div>
                     <div class="servicecard"> 
-                      <img src={require('./attachments/webdevlogo.png')} alt="smm"/> 
+                      <img src={require('./attachments/SMM.jpeg')} alt="smm"/> 
                       <h1> Social Media Marketing</h1>
                       <p>We also provide social media marketing where we launch and handle instagram, facebook and any other page your comapny may need</p>
                     </div>
