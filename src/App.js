@@ -18,6 +18,7 @@ function App() {
             <ReactFullpage.Wrapper>
               {/* Section one here */}
               <div className="section one">
+                <div class="slide">
                 <div class="divforsectionone">
                   <div class="toprowwiththings">
                     <div class="logoandname">TekTriad <img src={require('./attachments/tektriadlogo.svg')} alt="logo"/></div>
@@ -31,15 +32,51 @@ function App() {
                   </div>
                   <div class="loremipsumgithub">
                     <p>LOREM IPSUM AND BEYOND</p>
-                    <div class="firstpagebutton">Sign Up</div>
+                    <a href="#" onClick={() => fullpageApi.moveSlideRight()}> <div class="firstpagebutton">Sign Up</div></a>
                   </div>
                   <div class="logos">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tektriad/" ><img src="https://img.icons8.com/metro/208/000000/instagram-new.png" alt="insta"/></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tektriad/"><img src="https://img.icons8.com/android/208/000000/facebook-new.png" alt="fb"/></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/tektriad/"><img src="https://img.icons8.com/android/208/000000/linkedin.png" alt="linkedin"/></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tektriad/"><img src="https://img.icons8.com/material-sharp/208/000000/github.png" alt="github"/></a>
-                  </div>
+                  </div> 
                 </div>
+                </div>
+
+                <div class="slide"> 
+                  <div class="divforsectiononeslide2">
+                    <div class="toprow-s1s2">
+                    <p class="Contactus">CONTACT US</p>
+                    <img class="logottt" src={require("./attachments/tektriadlogo.svg")} alt=""/>
+
+                    </div> 
+                    <div class="Form"> 
+                        <div class="input-fields">
+                            <input type="text" class="input" placeholder="Name" />
+                            <input type="text" class="input" placeholder="Email Address" />
+                            <input type="text" class="input" placeholder="Phone" />
+                            <input type="text" class="input" placeholder="Subject" />
+                        </div>
+                        <div class="msg">
+                            <textarea placeholder="Message"></textarea>
+                            <div class="btn">send</div>
+                        </div>
+
+                        <div class="dets">
+                            <h1>Reach us at:</h1>
+                          <h2> Phone: <br/>+91 7755000005 <br/> <br/> Email: tektriad@gmail.com</h2>
+                        </div>
+                    </div>
+                    
+                
+                
+                  </div>
+                  
+                </div>
+
+
+
+
               </div>
 
 
