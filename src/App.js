@@ -143,7 +143,7 @@ function App() {
                       <p>Our team of designers is there for your every need, be it designing an online post, vector images or full fledged websites </p>
                     </div>
                     <div class="servicecard"> 
-                      <img src={require('./attachments/SMM.jpeg')} alt="smm"/> 
+                      <img src={require('./attachments/sharmapro.png')} alt="smm"/> 
                       <h1> Social Media Marketing</h1>
                       <p>We also provide social media marketing where we launch and handle instagram, facebook and any other page your comapny may need</p>
                     </div>
@@ -167,7 +167,7 @@ function App() {
                 
                 
                   <div class="found">
-                    <div class="dabba"><div class="found-ph"> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vaibhav-sharma-340206195/"><img class="founder" src={require("./attachments/sharmareal.jpeg")} alt="sharma"/></a> </div> 
+                    <div class="dabba"><div class="found-ph"> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vaibhav-sharma-340206195/"><img class="founder" src={require("./attachments/sharma.jpg")} alt="sharma"/></a> </div> 
                     <div class="found-ph">Vaibhav is a second year student at Jaypee University, Shimla pursuing a Btech in CS and has a keen interest in marketing and web design rivalled only by his talent for Search Engine Optimization </div></div>
                     <div class="dabba"><div class="found-ph"> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kshitij-jain-1a57b5165/"><img class="founder" src={require("./attachments/kshitijreal.jpeg")} alt="kshitij"/></a> </div> 
                     <div class="found-ph"> Kshitij, a rising Sophomore at Dartmouth College, USA is studying Business, CS and mathematics. A passionate web developer and philanthropic businessman,he is striving to make India go digital with this venture</div></div>
