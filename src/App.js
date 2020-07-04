@@ -108,13 +108,13 @@ function App() {
                     
                       <div class="proj-container-right-box">
                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/shuchitpant/ARONE">   <img src={require("./attachments/web91.jpg")} alt="project"/> </a>
-                      <p class="proj-txt">An AR Android App <br/></p>
+                      <p class="proj-txt">An AR Android App</p>
 
                       </div>
                       
                       <div class="proj-container-right-box">
                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/jkshitij77/BrainTrainer">    <img src={require("./attachments/web4.jpeg")} alt="project"/> </a>
-                      <p class="proj-txt">Lorem ipsum dolor <br/> sit amet.</p>
+                      <p class="proj-txt">Flash chat application</p>
                       </div>
                     </div>
                   </div>
