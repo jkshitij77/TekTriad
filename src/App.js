@@ -18,6 +18,7 @@ function App() {
             <ReactFullpage.Wrapper>
               {/* Section one here */}
               <div className="section one">
+                <div class="slide">
                 <div class="divforsectionone">
                   <div class="toprowwiththings">
                     <div class="logoandname">TekTriad <img src={require('./attachments/tektriadlogo.svg')} alt="logo"/></div>
@@ -31,15 +32,51 @@ function App() {
                   </div>
                   <div class="loremipsumgithub">
                     <p>LOREM IPSUM AND BEYOND</p>
-                    <div class="firstpagebutton"> <a href="mailto:tektriad@gmail.com">Reach us </a></div>
+                    <a href="#" onClick={() => fullpageApi.moveSlideRight()}> <div class="firstpagebutton">Sign Up</div></a>
                   </div>
                   <div class="logos">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tektriad/" ><img src="https://img.icons8.com/metro/208/000000/instagram-new.png" alt="insta"/></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tektriad/"><img src="https://img.icons8.com/android/208/000000/facebook-new.png" alt="fb"/></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/tektriad/"><img src="https://img.icons8.com/android/208/000000/linkedin.png" alt="linkedin"/></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tektriad/"><img src="https://img.icons8.com/material-sharp/208/000000/github.png" alt="github"/></a>
-                  </div>
+                  </div> 
                 </div>
+                </div>
+
+                <div class="slide"> 
+                  <div class="divforsectiononeslide2">
+                    <div class="toprow-s1s2">
+                    <p class="Contactus">CONTACT US</p>
+                    <img class="logottt" src={require("./attachments/tektriadlogo.svg")} alt=""/>
+
+                    </div> 
+                    <div class="Form"> 
+                        <div class="input-fields">
+                            <input type="text" class="input" placeholder="Name" />
+                            <input type="text" class="input" placeholder="Email Address" />
+                            <input type="text" class="input" placeholder="Phone" />
+                            <input type="text" class="input" placeholder="Subject" />
+                        </div>
+                        <div class="msg">
+                            <textarea placeholder="Message"></textarea>
+                            <div class="btn">send</div>
+                        </div>
+
+                        <div class="dets">
+                            <h1>Reach us at:</h1>
+                          <h2> Phone: <br/>+91 7755000005 <br/> <br/> Email: tektriad@gmail.com</h2>
+                        </div>
+                    </div>
+                    
+                
+                
+                  </div>
+                  
+                </div>
+
+
+
+
               </div>
 
 
@@ -71,13 +108,13 @@ function App() {
                     
                       <div class="proj-container-right-box">
                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/shuchitpant/ARONE">   <img src={require("./attachments/web91.jpg")} alt="project"/> </a>
-                      <p class="proj-txt">An AR Android App <br/></p>
+                      <p class="proj-txt">An AR Android App</p>
 
                       </div>
                       
                       <div class="proj-container-right-box">
                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/jkshitij77/BrainTrainer">    <img src={require("./attachments/web4.jpeg")} alt="project"/> </a>
-                      <p class="proj-txt">Lorem ipsum dolor <br/> sit amet.</p>
+                      <p class="proj-txt">Flash chat application</p>
                       </div>
                     </div>
                   </div>
@@ -106,7 +143,7 @@ function App() {
                       <p>Our team of designers is there for your every need, be it designing an online post, vector images or full fledged websites </p>
                     </div>
                     <div class="servicecard"> 
-                      <img src={require('./attachments/webdevlogo.png')} alt="smm"/> 
+                      <img src={require('./attachments/SMM.jpeg')} alt="smm"/> 
                       <h1> Social Media Marketing</h1>
                       <p>We also provide social media marketing where we launch and handle instagram, facebook and any other page your comapny may need</p>
                     </div>
