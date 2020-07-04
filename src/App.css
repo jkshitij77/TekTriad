@@ -78,6 +78,12 @@
   opacity: .4;
   cursor: pointer;
 }
+.firstpagebutton:hover{
+  background-color: black;
+  color: white;
+  opacity: .7;
+
+}
 a{
   text-decoration: none;
 }
@@ -440,6 +446,7 @@ a{
 
 .servicecard p{
   text-justify: inter-cluster;
+  /* padding: 0vw; */
 }
 
 .lowerthingservices > div{
