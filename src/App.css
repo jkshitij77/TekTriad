@@ -94,7 +94,7 @@ a{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 30vw;
+  width: 40vw;
 }
 
 .logos img{
@@ -432,6 +432,8 @@ a{
 
 .servicecard h1{
   color: #515111;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .servicecard img{
@@ -530,8 +532,8 @@ a{
 .founder{
  height: 15vw;
  border-radius: 5vh;
-
 }
+
 @media(min-width: 650px) AND (max-width: 768px){
   .found{
     flex-direction: column;
@@ -541,7 +543,6 @@ a{
   .founder{
    height: 14vw;
    border-radius: 3vh;
-  
   }
   .dabba{
     padding-right: 10vw;

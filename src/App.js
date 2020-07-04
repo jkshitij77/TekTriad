@@ -167,11 +167,11 @@ function App() {
                 
                 
                   <div class="found">
-                    <div class="dabba"><div class="found-ph"> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vaibhav-sharma-340206195/"><img class="founder" src={require("./attachments/Sharma.jpg")} alt="sharma"/></a> </div> 
+                    <div class="dabba"><div class="found-ph"> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vaibhav-sharma-340206195/"><img class="founder" src={require("./attachments/sharmareal.jpeg")} alt="sharma"/></a> </div> 
                     <div class="found-ph">Vaibhav is a second year student at Jaypee University, Shimla pursuing a Btech in CS and has a keen interest in marketing and web design rivalled only by his talent for Search Engine Optimization </div></div>
-                    <div class="dabba"><div class="found-ph"> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kshitij-jain-1a57b5165/"><img class="founder" src={require("./attachments/DP.jpg")} alt="kshitij"/></a> </div> 
+                    <div class="dabba"><div class="found-ph"> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kshitij-jain-1a57b5165/"><img class="founder" src={require("./attachments/kshitijreal.jpeg")} alt="kshitij"/></a> </div> 
                     <div class="found-ph"> Kshitij, a rising Sophomore at Dartmouth College, USA is studying Business, CS and mathematics. A passionate web developer and philanthropic businessman,he is striving to make India go digital with this venture</div></div>
-                    <div class="dabba"><div class="found-ph"> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shuchit-pant-948a0b190/"><img class="founder" src={require("./attachments/Shuchit.jpg")} alt="pant"/></a></div> 
+                    <div class="dabba"><div class="found-ph"> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shuchit-pant-948a0b190/"><img class="founder" src={require("./attachments/betireal.png")} alt="pant"/></a></div> 
                     <div class="found-ph">Shuchit is doing a Btech in Computer Science at Manipal University. He is an avid Web Developer with an innate knack for React, gaming and everything in the spectrum of tech</div> </div>
 
                   </div>
