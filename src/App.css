@@ -79,6 +79,12 @@
   cursor: pointer;
 }
 
+.firstpagebutton a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
 .logos{
   padding-top: 10vh;
   align-self: center;

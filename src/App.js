@@ -31,7 +31,7 @@ function App() {
                   </div>
                   <div class="loremipsumgithub">
                     <p>LOREM IPSUM AND BEYOND</p>
-                    <div class="firstpagebutton">Sign Up</div>
+                    <div class="firstpagebutton"> <a href="mailto:tektriad@gmail.com">Reach us </a></div>
                   </div>
                   <div class="logos">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/tektriad/" ><img src="https://img.icons8.com/metro/208/000000/instagram-new.png" alt="insta"/></a>
@@ -123,7 +123,7 @@ function App() {
 
               <div class="aboutus-cont">
               <img class="Abt" viewBox="-100 -100 100 100" src={require("./attachments/aboutus.svg")} alt="aboutus"/>
-              <p class="aboutustxt"> We are a solely student run service seeking to make current small and medium scale enterprises bridge the gap in an increasingly web-centred society. We hope to make India step into the digital age by providing professional and affordable websites to everyone. Meet the founders below</p>
+              <p class="aboutustxt"> We are a Dartmouth based startup seeking to make current small and medium scale enterprises bridge the gap in an increasingly web-centred society. We hope to make local businesses step into the digital age by providing professional and affordable websites to everyone. Meet the founders below</p>
               </div>
 
                 <div class="BEHEN">
@@ -133,7 +133,7 @@ function App() {
                     <div class="dabba"><div class="found-ph"> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vaibhav-sharma-340206195/"><img class="founder" src={require("./attachments/Sharma.jpg")} alt="sharma"/></a> </div> 
                     <div class="found-ph">Vaibhav is a second year student at Jaypee University, Shimla pursuing a Btech in CS and has a keen interest in marketing and web design rivalled only by his talent for Search Engine Optimization </div></div>
                     <div class="dabba"><div class="found-ph"> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kshitij-jain-1a57b5165/"><img class="founder" src={require("./attachments/DP.jpg")} alt="kshitij"/></a> </div> 
-                    <div class="found-ph"> Kshitij, a rising Sophomore at Dartmouth College is studying Business, CS and mathematics. A passionate web developer and philanthropic businessman,he is striving to make India go digital with this venture</div></div>
+                    <div class="found-ph"> Kshitij, a rising Sophomore at Dartmouth College, USA is studying Business, CS and mathematics. A passionate web developer and philanthropic businessman,he is striving to make India go digital with this venture</div></div>
                     <div class="dabba"><div class="found-ph"> <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/shuchit-pant-948a0b190/"><img class="founder" src={require("./attachments/Shuchit.jpg")} alt="pant"/></a></div> 
                     <div class="found-ph">Shuchit is doing a Btech in Computer Science at Manipal University. He is an avid Web Developer with an innate knack for React, gaming and everything in the spectrum of tech</div> </div>
 
