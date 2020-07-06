@@ -112,7 +112,7 @@ function App() {
 
                       </div>
                       
-                      <div class="proj-container-right-box">
+                      <div class="proj-container-right-box lilwayne">
                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/jkshitij77/BrainTrainer">    <img src={require("./attachments/web4.jpeg")} alt="project"/> </a>
                       <p class="proj-txt">Flash chat application</p>
                       </div>
