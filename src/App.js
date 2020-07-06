@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import './App.css';
+import firebase from './firebase.js'
+import ContactList from './contact.jsx';
 
 function App() {
   return (
@@ -50,23 +52,7 @@ function App() {
                     <img class="logottt" src={require("./attachments/tektriadlogo.svg")} alt=""/>
 
                     </div> 
-                    <div class="Form"> 
-                        <div class="input-fields">
-                            <input type="text" class="input" placeholder="Name" />
-                            <input type="text" class="input" placeholder="Email Address" />
-                            <input type="text" class="input" placeholder="Phone" />
-                            <input type="text" class="input" placeholder="Subject" />
-                        </div>
-                        <div class="msg">
-                            <textarea placeholder="Message"></textarea>
-                            <div class="btn">send</div>
-                        </div>
-
-                        <div class="dets">
-                            <h1>Reach us at:</h1>
-                          <h2> Phone: <br/>+91 7755000005 <br/> <br/> Email: tektriad@gmail.com</h2>
-                        </div>
-                    </div>
+                    <ContactList />
                     
                 
                 
